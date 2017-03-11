@@ -102,9 +102,6 @@ ggplot(data=data.frame(x=c(0, max(In.Value, Wr.Vr$Vr, Wr.Vr$Wr, Wr.Vr$Wrei))), a
        ) +
   theme_bw()
 }
-\author{
-Muhammad Yaseen (\email{myaseen208@gmail.com})
-}
 \references{
 \enumerate{
 \item Hayman, B. I. (1954 a) The Theory and Analysis of Diallel Crosses.
@@ -124,4 +121,6 @@ Muhammad Yaseen (\email{myaseen208@gmail.com})
 \code{\link{Griffing}}
  , \code{\link{HaymanData}}
 }
-
+\author{
+Muhammad Yaseen (\email{myaseen208@gmail.com})
+}

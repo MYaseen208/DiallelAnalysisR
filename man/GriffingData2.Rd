@@ -22,9 +22,6 @@ data(GriffingData2)
 \examples{
 data(GriffingData2)
 }
-\author{
-Muhammad Yaseen (\email{myaseen208@gmail.com})
-}
 \references{
 \enumerate{
 \item Griffing, B. (1956) Concept of General and Specific Combining Ability
@@ -40,5 +37,7 @@ Muhammad Yaseen (\email{myaseen208@gmail.com})
  , \code{\link{GriffingData3}}
  , \code{\link{GriffingData4}}
 }
+\author{
+Muhammad Yaseen (\email{myaseen208@gmail.com})
+}
 \keyword{datasets}
-

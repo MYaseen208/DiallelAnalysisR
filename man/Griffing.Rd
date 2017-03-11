@@ -219,9 +219,6 @@ Griffing2Data4Means <- Griffing2Data4$Means
 Griffing2Data4ANOVA <- Griffing2Data4$ANOVA
 Griffing2Data4Genetic.Components <- Griffing2Data4$Genetic.Components
 }
-\author{
-Muhammad Yaseen (\email{myaseen208@gmail.com})
-}
 \references{
 \enumerate{
 \item Griffing, B. (1956) Concept of General and Specific Combining Ability
@@ -238,4 +235,6 @@ Muhammad Yaseen (\email{myaseen208@gmail.com})
  , \code{\link{GriffingData3}}
  , \code{\link{GriffingData4}}
 }
-
+\author{
+Muhammad Yaseen (\email{myaseen208@gmail.com})
+}

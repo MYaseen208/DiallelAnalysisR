@@ -16,7 +16,18 @@ and two Models:
 can be applied using Griffing's approach.
 
 ## Installation
-Use **devtools** to install the development version from Github:
+
+### Stable Version
+Stable version of the package avialabe on [CRAN](https://cran.r-project.org/web/packages/DiallelAnalysisR/index.html) can be installed using:
+
+```{r}
+install.packages('DiallelAnalysisR')
+```
+
+### Development Version
+
+Development version of the package avialabe on [Github](https://github.com/MYaseen208/DiallelAnalysisR) can be installed using:
+
 
 ```{r}
 if(!require("devtools")) install.packages("devtools")
