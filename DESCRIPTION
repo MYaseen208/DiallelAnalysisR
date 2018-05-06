@@ -1,7 +1,7 @@
 Package: DiallelAnalysisR
 Type: Package
 Title: Diallel Analysis with R
-Version: 0.1.1
+Version: 0.2.0
 Authors@R: c( person(c("Muhammad", "Yaseen"),  email = "myaseen208@gmail.com", role = c("aut", "cre")),
                    person(c("Kent", "M.", "Eskridge"),  email = "keskridge1@unl.edu ", role = "ctb"))
 Maintainer: Muhammad Yaseen <myaseen208@gmail.com>
