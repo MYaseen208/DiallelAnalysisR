@@ -242,7 +242,7 @@ Griffing <-
     n               <- nrow(DataTotals)
     r               <- length(levels(as.factor(data[[Rep]])))
     dimnames(Means) <- list(paste0("Cross", 1:n), paste0("Cross", 1:n))
-    SS.gca          <- ((sum((colSums(Means) + rowSums(Means))^2))/(2*n)-(2*(sum(colSums(Means)))^2)/n^2)
+    SS.gca          <- ((sum((colSums(Means)+rowSums(Means))^2))/(2*n)-(2*(sum(colSums(Means)))^2)/n^2)
     SS.sca          <- (sum(Means*(Means+t(Means)))/2-(sum((colSums(Means)+rowSums(Means))^2))/(2*n)+(sum(colSums(Means)))^2/n^2)
     SS.reciprocals  <- sum((Means-t(Means))^2)/4
     #-----------------------------------------------------------------------------
