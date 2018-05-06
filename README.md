@@ -1,4 +1,4 @@
-# DiallelAnalysisR : Diallel Analysis with R
+# DiallelAnalysisR: Diallel Analysis with R
 ## Introduction
 
 **DiallelAnalysisR** has functions to perform Diallel Analysis with R using Griffing's and Hayman's approaches. Four different Methods:
