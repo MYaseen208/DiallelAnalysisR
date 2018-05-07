@@ -26,12 +26,12 @@ install.packages('DiallelAnalysisR')
 
 ### Development Version
 
-Development version of the package avialabe on [Github](https://github.com/MYaseen208/DiallelAnalysisR) can be installed using:
+Development version of the package avialabe on [Github](https://github.com/myaseen208/DiallelAnalysisR) can be installed using:
 
 
 ```{r}
 if(!require("devtools")) install.packages("devtools")
-devtools::install_github('MYaseen208/DiallelAnalysisR', build_vignettes = TRUE)
+devtools::install_github('myaseen208/DiallelAnalysisR', build_vignettes = TRUE)
 ```
 
 ## License
