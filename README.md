@@ -1,38 +1,118 @@
-# DiallelAnalysisR: Diallel Analysis with R
-## Introduction
 
-**DiallelAnalysisR** has functions to perform Diallel Analysis with R using Griffing's and Hayman's approaches. Four different Methods:
+## `DiallelAnalysisR`: Detecting Structural Change with Heteroskedasticity
 
-1. Method-I (Parents + F1's + reciprocals)
-2. Method-II (Parents and one set of F1's)
-3. Method-III (One set of F1's and reciprocals)
-4. Method-IV (One set of F1's only)) 
+###### Version : [0.3.0](https://myaseen208.github.io/DiallelAnalysisR/); Copyright (C) 2019-2020: [UAF](http://uaf.edu.pk//); License: [GPL-2|GPL-3](https://www.r-project.org/Licenses/)
 
-and two Models:
+##### *Muhammad Yaseen<sup>1</sup>, and Kent M. Eskridge<sup>2</sup>*
 
-1. Fixed Effects Model
-2. Random Effects Model
+1.  Department of Mathematics and Statistics, University of Agriculture
+    Faisalabad, Pakistan.
+2.  Department of Statistics, University of Nebraska Lincoln, NE, USA.
 
-can be applied using Griffing's approach.
+-----
+
+[![minimal R
+version](https://img.shields.io/badge/R%3E%3D-3.5.0-6666ff.svg)](https://cran.r-project.org/)
+[![License: GPL
+v3](https://img.shields.io/badge/License-GPL%20v3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
+[![CRAN\_Status\_Badge](https://www.r-pkg.org/badges/version-last-release/DiallelAnalysisR)](https://cran.r-project.org/package=DiallelAnalysisR)
+[![rstudio mirror
+downloads](https://cranlogs.r-pkg.org/badges/grand-total/DiallelAnalysisR?color=green)](https://CRAN.R-project.org/package=DiallelAnalysisR)
+<!-- [![packageversion](https://img.shields.io/badge/Package%20version-0.2.3.3-orange.svg)](https://github.com/myaseen208/DiallelAnalysisR) -->
+
+[![develVersion](https://img.shields.io/badge/devel%20version-0.2.0-orange.svg)](https://github.com/myaseen208/DiallelAnalysisR)
+
+<!-- [![GitHub Download Count](https://github-basic-badges.herokuapp.com/downloads/myaseen208/DiallelAnalysisR/total.svg)] -->
+
+[![Project Status:
+WIP](http://www.repostatus.org/badges/latest/inactive.svg)](http://www.repostatus.org/#inactive)
+[![lifecycle](https://img.shields.io/badge/lifecycle-stable-brightgreen.svg)](https://www.tidyverse.org/lifecycle/#stable)
+[![Last-changedate](https://img.shields.io/badge/last%20change-2020--01--17-yellowgreen.svg)](https://github.com/myaseen208/DiallelAnalysisR)
+[![Rdoc](http://www.rdocumentation.org/badges/version/DiallelAnalysisR)](http://www.rdocumentation.org/packages/DiallelAnalysisR)
+[![Analytics](https://pro-pulsar-193905.appspot.com/UA-116716530-1/welcome-page)](https://github.com/myaseen208/google-analytics-beacon)
+
+-----
+
+## Description
+
+Performs Diallel Analysis with R using Griffing’s and Hayman’s
+approaches. Four different Methods (1: Method-I (Parents + F1’s +
+reciprocals); 2: Method-II (Parents and one set of F1’s); 3: Method-III
+(One set of F1’s and reciprocals); 4: Method-IV (One set of F1’s only))
+and two Models (1: Fixed Effects Model; 2: Random Effects Model) can be
+applied using Griffing’s approach.
 
 ## Installation
 
-### Stable Version
-Stable version of the package avialabe on [CRAN](https://cran.r-project.org/web/packages/DiallelAnalysisR/index.html) can be installed using:
+The package can be installed from CRAN as follows:
 
-```{r}
-install.packages('DiallelAnalysisR')
+``` r
+install.packages("DiallelAnalysisR", dependencies = TRUE)
 ```
 
-### Development Version
+The development version can be installed from github as follows:
 
-Development version of the package avialabe on [Github](https://github.com/myaseen208/DiallelAnalysisR) can be installed using:
-
-
-```{r}
-if(!require("devtools")) install.packages("devtools")
-devtools::install_github('myaseen208/DiallelAnalysisR', build_vignettes = TRUE)
+``` r
+if (!require("remotes")) install.packages("remotes")
+devtools::install_github("myaseen208/DiallelAnalysisR")
 ```
 
-## License
-This package is free and open source software, licensed under GPL.
+## Detailed tutorial
+
+For a detailed tutorial (vignette) on how to used this package type:
+
+``` r
+browseVignettes(package = "DiallelAnalysisR")
+```
+
+The vignette for the latest version is also available
+[online](https://myaseen208.github.io/DiallelAnalysisR/articles/IntroDiallelAnalysisR.html).
+
+## What’s new
+
+To know whats new in this version type:
+
+``` r
+news(package = "DiallelAnalysisR")
+```
+
+## Links
+
+[CRAN page](https://cran.r-project.org/package=DiallelAnalysisR)
+
+[Github page](https://github.com/myaseen208/DiallelAnalysisR)
+
+[Documentation website](https://myaseen208.github.io/DiallelAnalysisR/)
+
+## Citing `DiallelAnalysisR`
+
+To cite the methods in the package use:
+
+``` r
+citation("DiallelAnalysisR")
+```
+
+``` 
+
+To cite the R package 'SupMZ' in publications use:
+
+  Muhammad Yaseen, Sami Ullah, and Gulfam Haider (2020).  SupMZ:
+  Detecting Structural Change with Heteroskedasticity.R package version
+  0.3.0 ,
+  https://myaseen208.github.io/SupMZ/https://cran.r-project.org/package=SupMZ.
+
+A BibTeX entry for LaTeX users is
+
+  @Manual{,
+    title = {SupMZ: Detecting Structural Change with Heteroskedasticity},
+    author = {{Muhammad Yaseen} and {Sami Ullah} and {Gulfam Haider}},
+    year = {2020},
+    note = {R package version 0.3.0},
+    note = {https://myaseen208.github.io/SupMZ/ },
+    note = {https://cran.r-project.org/package=SupMZ},
+  }
+
+This free and open-source software implements academic research by the
+authors and co-workers. If you use it, please support the project by
+citing the package.
+```
