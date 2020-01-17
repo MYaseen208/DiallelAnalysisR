@@ -1,5 +1,5 @@
 
-## `DiallelAnalysisR`: Detecting Structural Change with Heteroskedasticity
+## `DiallelAnalysisR`: Diallel Analysis with R
 
 ###### Version : [0.3.0](https://myaseen208.github.io/DiallelAnalysisR/); Copyright (C) 2019-2020: [UAF](http://uaf.edu.pk//); License: [GPL-2|GPL-3](https://www.r-project.org/Licenses/)
 
@@ -20,7 +20,7 @@ v3](https://img.shields.io/badge/License-GPL%20v3-blue.svg)](https://www.gnu.org
 downloads](https://cranlogs.r-pkg.org/badges/grand-total/DiallelAnalysisR?color=green)](https://CRAN.R-project.org/package=DiallelAnalysisR)
 <!-- [![packageversion](https://img.shields.io/badge/Package%20version-0.2.3.3-orange.svg)](https://github.com/myaseen208/DiallelAnalysisR) -->
 
-[![develVersion](https://img.shields.io/badge/devel%20version-0.2.0-orange.svg)](https://github.com/myaseen208/DiallelAnalysisR)
+[![develVersion](https://img.shields.io/badge/devel%20version-0.3.0-orange.svg)](https://github.com/myaseen208/DiallelAnalysisR)
 
 <!-- [![GitHub Download Count](https://github-basic-badges.herokuapp.com/downloads/myaseen208/DiallelAnalysisR/total.svg)] -->
 
@@ -94,22 +94,21 @@ citation("DiallelAnalysisR")
 
 ``` 
 
-To cite the R package 'SupMZ' in publications use:
+To cite the R package 'DiallelAnalysisR' in publications use:
 
-  Muhammad Yaseen, Sami Ullah, and Gulfam Haider (2020).  SupMZ:
-  Detecting Structural Change with Heteroskedasticity.R package version
-  0.3.0 ,
-  https://myaseen208.github.io/SupMZ/https://cran.r-project.org/package=SupMZ.
+  Muhammad Yaseen, and Kent M. Eskridge (2020).  DiallelAnalysisR:
+  Diallel Analysis with R.R package version 0.3.0 ,
+  https://myaseen208.github.io/DiallelAnalysisR/https://cran.r-project.org/package=DiallelAnalysisR.
 
 A BibTeX entry for LaTeX users is
 
   @Manual{,
-    title = {SupMZ: Detecting Structural Change with Heteroskedasticity},
-    author = {{Muhammad Yaseen} and {Sami Ullah} and {Gulfam Haider}},
+    title = {DiallelAnalysisR: Diallel Analysis with R},
+    author = {{Muhammad Yaseen} and {Kent M. Eskridge}},
     year = {2020},
     note = {R package version 0.3.0},
-    note = {https://myaseen208.github.io/SupMZ/ },
-    note = {https://cran.r-project.org/package=SupMZ},
+    note = {https://myaseen208.github.io/DiallelAnalysisR/ },
+    note = {https://cran.r-project.org/package=DiallelAnalysisR},
   }
 
 This free and open-source software implements academic research by the
