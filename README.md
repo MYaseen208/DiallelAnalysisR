@@ -27,9 +27,8 @@ downloads](https://cranlogs.r-pkg.org/badges/grand-total/DiallelAnalysisR?color=
 [![Project Status:
 WIP](http://www.repostatus.org/badges/latest/inactive.svg)](http://www.repostatus.org/#inactive)
 [![lifecycle](https://img.shields.io/badge/lifecycle-stable-brightgreen.svg)](https://www.tidyverse.org/lifecycle/#stable)
-[![Last-changedate](https://img.shields.io/badge/last%20change-2020--01--17-yellowgreen.svg)](https://github.com/myaseen208/DiallelAnalysisR)
+[![Last-changedate](https://img.shields.io/badge/last%20change-2020--08--01-yellowgreen.svg)](https://github.com/myaseen208/DiallelAnalysisR)
 [![Rdoc](http://www.rdocumentation.org/badges/version/DiallelAnalysisR)](http://www.rdocumentation.org/packages/DiallelAnalysisR)
-[![Analytics](https://pro-pulsar-193905.appspot.com/UA-116716530-1/welcome-page)](https://github.com/myaseen208/google-analytics-beacon)
 
 -----
 
@@ -54,7 +53,7 @@ The development version can be installed from github as follows:
 
 ``` r
 if (!require("remotes")) install.packages("remotes")
-devtools::install_github("myaseen208/DiallelAnalysisR")
+remotes::install_github("myaseen208/DiallelAnalysisR")
 ```
 
 ## Detailed tutorial

@@ -2,10 +2,25 @@ Package: DiallelAnalysisR
 Type: Package
 Title: Diallel Analysis with R
 Version: 0.3.0
-Authors@R: c(
-              person(c("Muhammad", "Yaseen"),  email = "myaseen208@gmail.com", role = c("aut", "cre"), comment = c(ORCID = "0000-0002-5923-1714"))
-           , person(c("Kent", "M.", "Eskridge"),  email = "keskridge1@unl.edu ", role = "ctb")
-           )
+Authors@R: 
+    c(
+        person(
+          c("Muhammad", "Yaseen")
+        , email = "myaseen208@gmail.com"
+        , role = c("aut", "cre", "cph")
+        , comment = c(ORCID = "0000-0002-5923-1714")
+        )
+     , person(
+          c("Kent", "M.", "Eskridge")
+        , email = "keskridge1@unl.edu"
+        , role = c("ctb")
+        )
+     , person(
+           c("Pedro", "A. M.", "Barbosa")
+         , email = "pedro.barbosa@usp.br"
+         , role = c("ctb")
+         )
+        )
 Maintainer: Muhammad Yaseen <myaseen208@gmail.com>
 Description: Performs Diallel Analysis with R using Griffing's and Hayman's approaches. Four different Methods (1: Method-I (Parents + F1's + reciprocals); 2: Method-II (Parents and one set of F1's); 3: Method-III (One set of F1's and reciprocals); 4: Method-IV (One set of F1's only)) and two Models (1: Fixed Effects Model; 2: Random Effects Model) can be applied using Griffing's approach.
 Depends: R (>= 3.1)
@@ -14,11 +29,11 @@ License: GPL-2 | GPL-3
 Encoding: UTF-8
 LazyData: true
 VignetteBuilder: knitr
-RoxygenNote: 7.0.2
+RoxygenNote: 7.1.1
 URL: https://github.com/myaseen208/DiallelAnalysisR
      https://CRAN.R-project.org/package=DiallelAnalysisR
      https://myaseen208.github.io/DiallelAnalysisR/
-BugReports: https://github.com/aravind-j/DiallelAnalysisR/issues
+BugReports: https://github.com/myaseen208/DiallelAnalysisR/issues
 Note: Department of Mathematics and Statistics, University of Agriculture Faisalabad, Faisalabad-Pakistan.
 Imports:
     ggplot2,
@@ -27,4 +42,3 @@ Suggests:
     knitr,
     rmarkdown,
     testthat
-RdMacros: Rdpack

@@ -1,3 +1,10 @@
+url: https://myaseen208.github.io/DiallelAnalysisR/
+
+home:
+  title: DiallelAnalysisR
+  description: Diallel Analysis with R
+
+
 template:
   params:
     bootswatch: united
@@ -6,10 +13,19 @@ template:
       api_key: bdafb7ea4490644e670f470ee3ef537f
       index_name: DiallelAnalysisR
 
+
+toc:
+  depth: 3
+
+authors:
+  Muhammmad Yaseen:
+    href: https://www.researchgate.net/profile/Muhammad_Yaseen10
+  Kent M. Eskridge:
+    href: https://www.researchgate.net/profile/Kent_Eskridge
+
 development:
   mode: unreleased
 
-url: https://myaseen208.github.io/DiallelAnalysisR/
 
 navbar:
   title: DiallelAnalysisR
@@ -28,9 +44,12 @@ navbar:
       text: News
       href: news/index.html
   right:
-    - icon: fa-github-alt
-      text: Github
-      href: https://github.com/myaseen208/DiallelAnalysisR
+    - icon: "fa-github"
+      href: https://github.com/myaseen208/eda4treeR
+    - text: "RG"
+      href: https://www.researchgate.net/profile/Muhammad_Yaseen10
+    - icon: "fab fa-twitter"
+      href: https://twitter.com/myaseen208
 
 reference:
     - title: Data Sets
@@ -44,6 +63,6 @@ reference:
 
     - title: Core anlaysis function
       contents:
-         - '`Hayman`'
+         - '`Griffing`'
          - '`Hayman`'
 

@@ -4,7 +4,9 @@
 \name{GriffingData2}
 \alias{GriffingData2}
 \title{Data for Diallel Analysis using Griffing Approach Method 2}
-\format{A \code{data.frame} with 144 rows and 4 variables.}
+\format{
+A \code{data.frame} with 144 rows and 4 variables.
+}
 \usage{
 data(GriffingData2)
 }

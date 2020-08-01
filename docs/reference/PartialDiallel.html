@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>Articles • DiallelAnalysisR</title>
+<title>Analysis for Partial Diallel — PartialDiallel • DiallelAnalysisR</title>
 
 
 <!-- jquery -->
@@ -47,7 +47,8 @@
   <link href="../extra.css" rel="stylesheet">
   
 
-<meta property="og:title" content="Articles" />
+<meta property="og:title" content="Analysis for Partial Diallel — PartialDiallel" />
+<meta property="og:description" content="Analysis of Partial Diallel" />
 
 
 
@@ -76,7 +77,7 @@
   </head>
 
   <body data-spy="scroll" data-target="#toc">
-    <div class="container template-article-index">
+    <div class="container template-reference-topic">
       <header>
       <div class="navbar navbar-default navbar-fixed-top" role="navigation">
   <div class="container">
@@ -159,18 +160,124 @@
 <div class="row">
   <div class="col-md-9 contents">
     <div class="page-header">
-      <h1>Articles</h1>
+    <h1>Analysis for Partial Diallel</h1>
+    <small class="dont-index">Source: <a href='https://github.com/myaseen208/DiallelAnalysisR/blob/master/R/PartialDiallel.R'><code>R/PartialDiallel.R</code></a></small>
+    <div class="hidden name"><code>PartialDiallel.Rd</code></div>
     </div>
 
-    <div class="section ">
-      <h3>All vignettes</h3>
-      <p class="section-desc"></p>
-
-      <dl>
-        <dt><a href="IntroDiallelAnalysisR.html">Introduction to DiallelAnalysisR</a></dt>
-        <dd></dt>
-      </dl>
+    <div class="ref-description">
+    <p>Analysis of Partial Diallel</p>
     </div>
+
+    <pre class="usage"><span class='fu'>PartialDiallel</span>(<span class='no'>y</span>, <span class='no'>Rep</span>, <span class='no'>Cross1</span>, <span class='no'>Cross2</span>, <span class='no'>data</span>)</pre>
+
+    <h2 class="hasAnchor" id="arguments"><a class="anchor" href="#arguments"></a>Arguments</h2>
+    <table class="ref-arguments">
+    <colgroup><col class="name" /><col class="desc" /></colgroup>
+    <tr>
+      <th>y</th>
+      <td><p>Numeric Response Vector</p></td>
+    </tr>
+    <tr>
+      <th>Rep</th>
+      <td><p>Replicate as factor</p></td>
+    </tr>
+    <tr>
+      <th>Cross1</th>
+      <td><p>Cross 1 as factor</p></td>
+    </tr>
+    <tr>
+      <th>Cross2</th>
+      <td><p>Cross 2 as factor</p></td>
+    </tr>
+    <tr>
+      <th>data</th>
+      <td><p>A <code>data.frame</code></p></td>
+    </tr>
+    </table>
+
+    <h2 class="hasAnchor" id="value"><a class="anchor" href="#value"></a>Value</h2>
+
+    <p>Means Means</p>
+<p>ANOVA Analysis of Variance (ANOVA) table</p>
+<p>Genetic.Components Genetic Components</p>
+<p>General General</p>
+<p>Specific Specific</p>
+    <h2 class="hasAnchor" id="see-also"><a class="anchor" href="#see-also"></a>See also</h2>
+
+    <div class='dont-index'><p><code><a href='PartialDiallelData.html'>PartialDiallelData</a></code>
+ , <code><a href='Griffing.html'>Griffing</a></code>
+ , <code><a href='Hayman.html'>Hayman</a></code>
+ , <code><a href='GriffingData1.html'>GriffingData1</a></code>
+ , <code><a href='GriffingData2.html'>GriffingData2</a></code>
+ , <code><a href='GriffingData3.html'>GriffingData3</a></code>
+ , <code><a href='GriffingData4.html'>GriffingData4</a></code></p></div>
+
+    <h2 class="hasAnchor" id="examples"><a class="anchor" href="#examples"></a>Examples</h2>
+    <pre class="examples"><div class='input'>
+<span class='fu'><a href='https://rdrr.io/r/utils/data.html'>data</a></span>(<span class='no'>PartialDiallelData</span>)
+<span class='no'>fm1</span> <span class='kw'>&lt;-</span>
+  <span class='fu'>PartialDiallel</span>(
+      <span class='kw'>y</span>      <span class='kw'>=</span> <span class='no'>y</span>
+    , <span class='kw'>Rep</span>    <span class='kw'>=</span> <span class='no'>Rep</span>
+    , <span class='kw'>Cross1</span> <span class='kw'>=</span> <span class='no'>Cross1</span>
+    , <span class='kw'>Cross2</span> <span class='kw'>=</span> <span class='no'>Cross2</span>
+    , <span class='kw'>data</span>   <span class='kw'>=</span> <span class='no'>PartialDiallelData</span>
+  )
+
+<span class='no'>fm1</span></div><div class='output co'>#&gt; $Means
+#&gt;         Cross11 Cross12 Cross13 Cross14
+#&gt; Cross1  17.2500 15.7350 14.6725 16.3650
+#&gt; Cross2  16.7625 15.9775 15.7550 16.4600
+#&gt; Cross3  16.7275 16.9150 15.6100 16.2650
+#&gt; Cross4  16.7375 14.5750 14.4875 15.5000
+#&gt; Cross5  16.5950 15.0000 14.0575 14.7500
+#&gt; Cross6  16.8150 14.6625 16.1300 15.0825
+#&gt; Cross7  15.5150 16.0400 16.5200 15.6950
+#&gt; Cross8  16.1650 13.9075 14.0475 13.9975
+#&gt; Cross9  17.1775 16.0175 16.7900 15.6475
+#&gt; Cross10 15.8825 14.5525 15.2150 14.6425
+#&gt; 
+#&gt; $ANOVA
+#&gt;         Df  Sum Sq Mean Sq F value    Pr(&gt;F)    
+#&gt; Treat   39 144.775  3.7122 10.5911 &lt; 2.2e-16 ***
+#&gt; GCA I    9  58.542  6.5046 18.5581 &lt; 2.2e-16 ***
+#&gt; GCA II   3  43.053 14.3510 40.9444 &lt; 2.2e-16 ***
+#&gt; SCA     27  43.180  1.5993  4.5628  3.85e-09 ***
+#&gt; Error  119  41.710  0.3505                      
+#&gt; ---
+#&gt; Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+#&gt; 
+#&gt; $Genetic.Components
+#&gt;        Components    Percent
+#&gt; GCA I    6.154139 0.28753042
+#&gt; GCA II  14.000541 0.65412582
+#&gt; SCA      1.248757 0.05834376
+#&gt; 
+#&gt; $General
+#&gt;    Cross1    Cross2    Cross3    Cross4    Cross5    Cross6    Cross7    Cross8 
+#&gt;  0.338125  0.571250  0.711875 -0.342500 -0.566875  0.005000  0.275000 -1.138125 
+#&gt;    Cross9   Cross10   Cross11   Cross12   Cross13   Cross14 
+#&gt;  0.740625 -0.594375  0.895250 -0.329250 -0.339000 -0.227000 
+#&gt; 
+#&gt; $Specific
+#&gt;           Cross11   Cross12   Cross13   Cross14
+#&gt; Cross1   0.349125  0.058625 -0.994125  0.586375
+#&gt; Cross2  -0.371500  0.068000 -0.144750  0.448250
+#&gt; Cross3  -0.547125  0.864875 -0.430375  0.112625
+#&gt; Cross4   0.517250 -0.420750 -0.498500  0.402000
+#&gt; Cross5   0.599125  0.228625 -0.704125 -0.123625
+#&gt; Cross6   0.247250 -0.680750  0.796500 -0.363000
+#&gt; Cross7  -1.322750  0.426750  0.916500 -0.020500
+#&gt; Cross8   0.740375 -0.292625 -0.142875 -0.304875
+#&gt; Cross9  -0.125875 -0.061375  0.720875 -0.533625
+#&gt; Cross10 -0.085875 -0.191375  0.480875 -0.203625
+#&gt; </div></pre>
+  </div>
+  <div class="col-md-3 hidden-xs hidden-sm" id="pkgdown-sidebar">
+    <nav id="toc" data-toggle="toc" class="sticky-top">
+      <h2 data-toc-skip>Contents</h2>
+    </nav>
   </div>
 </div>
 

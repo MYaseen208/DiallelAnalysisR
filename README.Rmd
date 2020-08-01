@@ -44,7 +44,6 @@ cat(paste("[![develVersion](https://img.shields.io/badge/devel%20version-", dver
 [![lifecycle](https://img.shields.io/badge/lifecycle-stable-brightgreen.svg)](https://www.tidyverse.org/lifecycle/#stable)
 [![Last-changedate](https://img.shields.io/badge/last%20change-`r gsub('-', '--', Sys.Date())`-yellowgreen.svg)](https://github.com/myaseen208/DiallelAnalysisR)
 [![Rdoc](http://www.rdocumentation.org/badges/version/DiallelAnalysisR)](http://www.rdocumentation.org/packages/DiallelAnalysisR)
-[![Analytics](https://pro-pulsar-193905.appspot.com/UA-116716530-1/welcome-page)](https://github.com/myaseen208/google-analytics-beacon)
 
 ***
 
@@ -64,7 +63,7 @@ The development version can be installed from github as follows:
 
 ```{r, eval=FALSE}
 if (!require("remotes")) install.packages("remotes")
-devtools::install_github("myaseen208/DiallelAnalysisR")
+remotes::install_github("myaseen208/DiallelAnalysisR")
 ```
 
 ## Detailed tutorial

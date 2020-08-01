@@ -36,7 +36,7 @@ resource_files:
 - vignettes/rstudio panes.png
 bibliography: Bibliography.bib
 vignette: |
-  %\VignetteIndexEntry{IntroSupMZ}
+  %\VignetteIndexEntry{IntroDiallelAnalysisR}
   %\usepackage[utf8]{inputenc}
   %\VignetteEngine{knitr::rmarkdown_notangle}
 ---

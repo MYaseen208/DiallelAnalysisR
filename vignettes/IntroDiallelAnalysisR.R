@@ -1,4 +1,4 @@
-## ---- echo=FALSE-----------------------------------------------------------
+## ---- echo=FALSE---------------------------------------------------------------------
 out_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
 
 r = getOption("repos")
@@ -7,7 +7,7 @@ r["CRAN"] = "https://cran.rstudio.com/"
 #r["CRAN"] = "https://ftp.iitm.ac.in/cran/"
 options(repos = r)
 
-## ---- results='asis', echo=FALSE-------------------------------------------
+## ---- results='asis', echo=FALSE-----------------------------------------------------
 switch(out_type,
     html = {cat("<p>1. Department of Mathematics and Statistics, University of Agriculture Faisalabad, Pakistan.</p>
 
@@ -19,11 +19,11 @@ switch(out_type,
 \\end{center}" )
 )
 
-## ----setup, include=FALSE--------------------------------------------------
+## ----setup, include=FALSE------------------------------------------------------------
 knitr::opts_chunk$set(echo = TRUE,
                       comment = "",
                       fig.cap = "")
 
-## --------------------------------------------------------------------------
+## ------------------------------------------------------------------------------------
 sessionInfo()
 

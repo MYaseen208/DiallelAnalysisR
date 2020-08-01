@@ -4,7 +4,9 @@
 \name{HaymanData}
 \alias{HaymanData}
 \title{Data for Diallel Analysis using Hayman's Approach}
-\format{A \code{data.frame} with 256 rows and 4 variables.}
+\format{
+A \code{data.frame} with 256 rows and 4 variables.
+}
 \usage{
 data(HaymanData)
 }
