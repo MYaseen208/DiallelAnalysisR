@@ -37,9 +37,6 @@ navbar:
     - icon: fa-code
       text: Reference
       href: reference/index.html
-    - icon: fa-file-o
-      text: Tutorial
-      href: articles/IntroDiallelAnalysisR.html
     - icon: fa-newspaper-o
       text: News
       href: news/index.html

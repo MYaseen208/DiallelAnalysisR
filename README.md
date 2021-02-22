@@ -56,17 +56,6 @@ if (!require("remotes")) install.packages("remotes")
 remotes::install_github("myaseen208/DiallelAnalysisR")
 ```
 
-## Detailed tutorial
-
-For a detailed tutorial (vignette) on how to used this package type:
-
-``` r
-browseVignettes(package = "DiallelAnalysisR")
-```
-
-The vignette for the latest version is also available
-[online](https://myaseen208.github.io/DiallelAnalysisR/articles/IntroDiallelAnalysisR.html).
-
 ## What’s new
 
 To know whats new in this version type:

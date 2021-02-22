@@ -1,7 +1,7 @@
 Package: DiallelAnalysisR
 Type: Package
 Title: Diallel Analysis with R
-Version: 0.3.0
+Version: 0.4.0
 Authors@R: 
     c(
         person(

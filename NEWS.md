@@ -1,3 +1,9 @@
+# DiallelAnalysisR 0.4.0
+## New Features 
+
+* Removed  Vignettes
+
+
 # DiallelAnalysisR 0.3.0
 ## New Features 
 
